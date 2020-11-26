@@ -1,0 +1,27 @@
+﻿*Be sure to only copy and paste the sections as they are discussed on screen.* 
+
+Module 5 - Lesson: Organizing Components - Files, Documents, and Codes
+
+Additional HTML syntax for R Markdown file to add sunstar images at top of document
+
+<center><hr>
+![](images/sunstar.png){width=50}
+![](images/sunstar.png){width=50}
+![](images/sunstar.png){width=50}
+![](images/sunstar.png){width=50}
+![](images/sunstar.png){width=50}
+<hr></center>
+
+
+
+R code chunks to insert sections from setup.R child script
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE }
+knitr::read_chunk("code/setup.R")
+```
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+```
+
+```{r loadData}
+```
